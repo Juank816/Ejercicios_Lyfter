@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="TuS66PCIu4hzfqip41Vm">
+    <mxGraphModel dx="908" dy="1336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rs8GCuRLH67mazMfTrmL-15" edge="1" parent="1" source="rs8GCuRLH67mazMfTrmL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=11;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rs8GCuRLH67mazMfTrmL-10" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Inicio" vertex="1">
+          <mxGeometry height="60" width="100" x="360" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-24" edge="1" parent="1" source="rs8GCuRLH67mazMfTrmL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=11;" target="H4A27j-s2lzVqvT5nREj-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-27" connectable="0" parent="H4A27j-s2lzVqvT5nREj-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=11;" value="VERDADERO" vertex="1">
+          <mxGeometry relative="1" x="-0.3176" y="-4" as="geometry">
+            <mxPoint x="4" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rs8GCuRLH67mazMfTrmL-12" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Georgia;fontSize=12;" value="&lt;span style=&quot;line-height: 115%;&quot;&gt;opcion_usuario &lt;/span&gt;&lt;span style=&quot;line-height: 115%;&quot;&gt;=! &lt;span style=&quot;color:#3B7D23;mso-themecolor:&amp;lt;br/&amp;gt;accent6;mso-themeshade:191;mso-style-textfill-fill-color:#3B7D23;mso-style-textfill-fill-themecolor:&amp;lt;br/&amp;gt;accent6;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:&amp;lt;br/&amp;gt;lumm=75000&quot;&gt;Numero_secreto&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="250.5" x="309.5" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="rs8GCuRLH67mazMfTrmL-13" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Georgia;fontSize=11;" value="Fin" vertex="1">
+          <mxGeometry height="60" width="100" x="370" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="rs8GCuRLH67mazMfTrmL-23" edge="1" parent="1" source="rs8GCuRLH67mazMfTrmL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;fontFamily=Georgia;fontSize=11;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-10" connectable="0" parent="rs8GCuRLH67mazMfTrmL-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=11;" value="FALSO" vertex="1">
+          <mxGeometry relative="1" x="0.2551" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-8" edge="1" parent="1" source="H4A27j-s2lzVqvT5nREj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=11;" target="H4A27j-s2lzVqvT5nREj-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-4" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Georgia;fontSize=12;" value="&lt;p class=&quot;MsoNormal&quot;&gt;“Debe adivinar el número secreto”&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="290" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-7" edge="1" parent="1" source="H4A27j-s2lzVqvT5nREj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=11;" target="rs8GCuRLH67mazMfTrmL-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Georgia;fontSize=12;" value="&lt;span style=&quot;line-height: 115%;&quot;&gt;opción_usuario&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="196" x="312" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-14" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontFamily=Georgia;fontSize=11;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="413.25" y="960" as="sourcePoint" />
+            <mxPoint x="413" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-16" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="414.75" y="960" as="sourcePoint" />
+            <mxPoint x="630" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-17" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="960" as="sourcePoint" />
+            <mxPoint x="630" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-19" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontFamily=Georgia;fontSize=11;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="1040" as="sourcePoint" />
+            <mxPoint x="420" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-22" edge="1" parent="1" source="H4A27j-s2lzVqvT5nREj-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=11;" target="rs8GCuRLH67mazMfTrmL-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-20" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Georgia;fontSize=12;" value="&lt;p class=&quot;MsoNormal&quot;&gt;Mostrar “Ha adivinado el número secreto: ” &lt;span style=&quot;color:#3B7D23;mso-themecolor:accent6;mso-themeshade:191;mso-style-textfill-fill-color:&amp;lt;br/&amp;gt;#3B7D23;mso-style-textfill-fill-themecolor:accent6;mso-style-textfill-fill-alpha:&amp;lt;br/&amp;gt;100.0%;mso-style-textfill-fill-colortransforms:lumm=75000&quot;&gt;opción_usuario&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="280" x="280" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Georgia;fontSize=11;" target="H4A27j-s2lzVqvT5nREj-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="1040" as="sourcePoint" />
+            <mxPoint x="470" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-26" edge="1" parent="1" source="H4A27j-s2lzVqvT5nREj-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=11;" target="H4A27j-s2lzVqvT5nREj-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-23" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Georgia;fontSize=12;" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;line-height: 115%;&quot;&gt;“No&lt;br&gt;ha adivinado el número secreto, intente de nuevo: ”&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="314.75" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="H4A27j-s2lzVqvT5nREj-25" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Georgia;fontSize=12;" value="&lt;span style=&quot;line-height: 115%;&quot;&gt;opción_usuario&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="196" x="336.75" y="810" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
