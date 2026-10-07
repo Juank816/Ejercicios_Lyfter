@@ -25,6 +25,6 @@ hotel = {
     ], 
 }
 
-#print(hotel['nightly_price']) # si queda esta línea se crashea
-print(hotel.get('nightly_price'))
+print(hotel['hotel_rooms']) 
+#print(hotel.get('nightly_price'))
 
