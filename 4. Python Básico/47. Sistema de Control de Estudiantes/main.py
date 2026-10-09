@@ -1,32 +1,31 @@
-#TRABAJO FINAL PYTHON BÁSICO: Sistema de Control de Estudiantes
-'''Requerimientos 📋
-1.Deberá validar que se ingrese una opción válida del menú.
-2.Ingresar información de n cantidad de estudiantes, uno por uno. Cada estudiante debe incluir:
-Nombre completo
-Sección (ejemplo: 11B)
-Nota de español
-Nota de inglés
-Nota de sociales
-Nota de ciencias
-3.Deberá validar que las notas ingresadas sean válidas (números de 0 a 100) y 
-seguir pidiéndolas hasta que sean válidas.
-4. Ver la información de todos los estudiantes ingresados.
-5. Ver el top 3 de los estudiantes con la mejor nota promedio 
-(es decir, el promedio de nota de español + nota de inglés + nota de sociales + nota de ciencias).
-6.Ver la nota promedio entre las notas de todos los estudiantes (es decir, el promedio de notas de cada uno).
-7.Exportar todos los datos actuales a un archivo CSV.
-8.Importar los datos de un archivo CSV previamente exportado. Si no hay un archivo previamente exportado, debe informárselo al usuario.'''
+# FINAL BASIC PYTHON PROJECT: Student Management System
+'''Requirements 📋
+1. Validate that a valid menu option is entered.
+2. Enter information for any number of students, one by one. Each student must include:
+Full name
+Section (example: 11B)
+Spanish grade
+English grade
+Social Studies grade
+Science grade
+3. Validate that the grades entered are valid (numbers from 0 to 100) and keep asking for them until they are valid.
+4. View the information of all entered students.
+5. View the top 3 students with the highest average grade
+(that is, the average of the Spanish grade + English grade + Social Studies grade + Science grade).
+6. View the average grade across all students (that is, the average of each student's grades).
+7. Export all current data to a CSV file.
+8. Import data from a previously exported CSV file. If no previously exported file exists, inform the user.'''
 
-#Importaciones de otros módulos
+# Imports from other modules
 from menu.menu import menu
 
 
-# 1. La función principal del main ejecutable
-def main(): # Tenemos la función main principal
+# 1. The main function of the executable program
+def main(): 
     try :
         menu() 
     except Exception as ex:
-        print("An unexpected error ocurred: {ex}")
+        print(f"An unexpected error ocurred: {ex}")
 
 if __name__ == "__main__":
-    main() 
+    main()
