@@ -6,8 +6,8 @@ from actions.actions import give_number_students, give_information_students,chec
 from actions.actions import show_overall_average 
 from data.data1 import filter_export_to_csv, filter_import_to_csv
 
-# project_dir = os.path.dirname(os.path.abspath(__file__))
-# csv_file = os.path.join(project_dir, "data", "students.csv")
+project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+csv_file = os.path.join(project_dir, "data", "students.csv")
 
 
 '''Main program menu.'''
@@ -38,9 +38,9 @@ def menu():
                 case 4:
                     show_overall_average(result_information)# 1. Final function that displays the overall average grade for all students
                 case 5:
-                    filter_export_to_csv(result_information, 'data\students.csv') # 1. Function responsible for exporting the information to a CSV file
+                    filter_export_to_csv(result_information, csv_file) # 1. Function responsible for exporting the information to a CSV file
                 case 6:
-                    imported_data = filter_import_to_csv('data\students.csv') # 1. Function responsible for importing CSV data as a dictionary
+                    imported_data = filter_import_to_csv(csv_file) # 1. Function responsible for importing CSV data as a dictionary
                     if imported_data:
                         result_information = imported_data
                 case 7:

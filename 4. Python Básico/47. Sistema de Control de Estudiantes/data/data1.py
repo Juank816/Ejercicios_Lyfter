@@ -45,11 +45,11 @@ def filter_import_to_csv(file_path):
     if os.path.exists(file_path):
         data = import_to_csv(file_path)
         if data:
-            print_and_return_data(data)
+            return print_and_return_data(data)
         else:
-            print_error_in_if_data()
+            return print_error_in_if_data()
     else:
-        print_final_error_case6()
+        return print_final_error_case6()
 
 
 # 2. Imports the information from the CSV file
@@ -84,7 +84,7 @@ def print_and_return_data(data):
     return data
 
 
-# 4. Displays a message confirming that the export was successful
+# 4. Displays a message confirming that the export was not successful
 def print_error_in_if_data():
     print("The CSV file is empty or contains no valid data.") 
     input("Press enter to continue...") 
@@ -93,6 +93,6 @@ def print_error_in_if_data():
 
 # 5. Displays the final error message of the import function
 def print_final_error_case6():
-    print("The CSV file is empty or contains no valid data.") 
+    print("There is no previously imported CSV file") 
     input("Press enter to continue...") 
     return []
