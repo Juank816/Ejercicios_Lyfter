@@ -14,16 +14,16 @@ class Bus:
         self.bus_list = []
 
 
-    def bus_counter(self, name):
-        if len(self.bus_list) <= self.max_passengers:
-            print(f"Pasajero {name} ingresó al bus!")
-            self.bus_list.append(name)
+    def add_passenger(self, person):
+        if len(self.bus_list) < self.max_passengers:
+            print(f"Pasajero {person.name} ingresó al bus!")
+            self.bus_list.append(person.name)
         else:
             print("Lo siento, el bus está lleno")
 
-    def bus_stop(self, name):
-        print(f"Pasajero {name} tocó el timbre para bajar!")
-        self.bus_list.remove(name)
+    def bus_stop(self, person):
+        print(f"Pasajero {person.name} tocó el timbre para bajar!")
+        self.bus_list.remove(person.name)
 
 
 class Person:
@@ -42,15 +42,15 @@ person_2 = Person("Luis")
 person_3 = Person("Melany")
 
 #Agregamos a las personas al bus
-bus1.bus_counter(person_1.name)
-bus1.bus_counter(person_2.name)
-bus1.bus_counter(person_3.name)
+bus1.add_passenger(person_1)
+bus1.add_passenger(person_2)
+bus1.add_passenger(person_3)
 
 #Imprimimos las personas que van en el bus
 print(bus1.bus_list)
 
 #Pasajero person 1 decide bajarse\
-bus1.bus_stop(person_1.name)
+bus1.bus_stop(person_1)
 
 #Imprimimos las personas que van en el bus
 print(bus1.bus_list)
